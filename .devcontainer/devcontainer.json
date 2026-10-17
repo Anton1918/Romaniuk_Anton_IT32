@@ -1,0 +1,43 @@
+{
+  "name": "Python 1sem course",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/${localWorkspaceFolderBasename},type=bind,consistency=cached",
+  "workspaceFolder": "/workspace/${localWorkspaceFolderBasename}",
+
+  "postCreateCommand": "bash .devcontainer/postCreateCommand.sh",
+
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": { "label": "mkdocs serve", "onAutoForward": "openBrowser" }
+  },
+
+  "containerEnv": {
+    // Claude Code keeps its login and settings here: a Docker volume, not the host ~/.claude,
+    // so the container can be logged in with a different Claude subscription.
+    "CLAUDE_CONFIG_DIR": "/home/vscode/.claude",
+    "UV_PROJECT_ENVIRONMENT": "/workspace/${localWorkspaceFolderBasename}/.venv"
+  },
+
+  "mounts": [
+    "source=claude-code-config-${devcontainerId},target=/home/vscode/.claude,type=volume"
+  ],
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "window.title": "Python 1sem ${separator} ${activeEditorShort} [Dev Container]",
+        "python.defaultInterpreterPath": "/workspace/${localWorkspaceFolderBasename}/.venv/bin/python"
+      },
+      "extensions": [
+        "ms-python.python",
+        "anthropic.claude-code",
+        "bierner.markdown-mermaid",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  },
+
+  "remoteUser": "vscode"
+}
