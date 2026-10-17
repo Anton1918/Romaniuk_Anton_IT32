@@ -1,7 +1,7 @@
 site_name: Python (1 семестр)
-site_url: https://kurotych.com/ua/courses/programming-1sem/
-repo_url: https://github.com/kurotych/programming-python-1sem
-repo_name: kurotych/programming-python-1sem
+site_url: https://illiadom.github.io/programming-python-1sem/
+repo_url: https://github.com/IlliaDom/programming-python-1sem
+repo_name: IlliaDom/programming-python-1sem
 
 watch:
   - docs

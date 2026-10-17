@@ -33,7 +33,7 @@ Files follow `NN-<topic>-<type>.md` pattern (e.g., `01-variables-lecture.md`, `0
 
 - All documentation is in **Ukrainian**. Maintain this when editing content.
 - Practice assignments build incrementally within each module.
-- Site deploys to GitHub Pages at `https://kurotych.com/ua/courses/programming-1sem/` (built by the `kurotych.github.io` repo, which includes this repo as a git submodule).
+- Site deploys to GitHub Pages at `https://illiadom.github.io/programming-python-1sem/` via `.github/workflows/deploy.yml` on every push to `main`.
 - Markdown extensions: `admonition`, `pymdownx.details`, `pymdownx.highlight`, `pymdownx.superfences` (with **mermaid** diagram support), `pymdownx.snippets`, `pymdownx.inlinehilite`, `toc` with permalinks.
 - Do not create guides for windows
 - In code samples, Cyrillic is allowed **only inside comments**. Everything else — string literals, `print()` arguments, log messages, variable/function names, terminal output blocks, error messages — must be Latin-only. This applies to any text that would appear in stdout/stderr, over the network, or as code identifiers.
