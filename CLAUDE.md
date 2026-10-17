@@ -18,6 +18,8 @@ pip3 install -r requirements.txt
 mkdocs serve --livereload
 ```
 
+Inside the dev container (`.devcontainer/`) the toolchain is already installed in `.venv`: use `uv run mkdocs serve -a 0.0.0.0:8000` and `uv run mkdocs build --strict`.
+
 ## Architecture
 
 - **docs/** — Course content in Markdown (Ukrainian). Organized by modules with paired lecture/practice files.
