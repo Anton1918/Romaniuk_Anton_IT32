@@ -2,3 +2,7 @@ site/
 env/
 __pycache__/
 .venv/
+lecture/
+node_modules/
+.claude/skills/
+.DS_Store
