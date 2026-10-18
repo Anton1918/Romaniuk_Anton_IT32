@@ -6,6 +6,13 @@
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/${localWorkspaceFolderBasename},type=bind,consistency=cached",
   "workspaceFolder": "/workspace/${localWorkspaceFolderBasename}",
 
+  "features": {
+    // Node: builds lecture decks and scripts (pptxgenjs, docx) for the lecture-materials skill
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" },
+    // GitHub CLI: open pull requests from the container (gh pr create)
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+
   "postCreateCommand": "bash .devcontainer/postCreateCommand.sh",
 
   "forwardPorts": [8000],
@@ -21,7 +28,9 @@
   },
 
   "mounts": [
-    "source=claude-code-config-${devcontainerId},target=/home/vscode/.claude,type=volume"
+    "source=claude-code-config-${devcontainerId},target=/home/vscode/.claude,type=volume",
+    // gh keeps its login here, so it survives container rebuilds
+    "source=gh-config-${devcontainerId},target=/home/vscode/.config/gh,type=volume"
   ],
 
   "customizations": {
