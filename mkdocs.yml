@@ -54,37 +54,169 @@ extra:
 
 nav:
   - Головна: index.md
-  - Модуль 1:
-    - module1/01-intro-lecture.md
-    - module1/02-tools-lecture.md
-    - module1/03-tools-practice.md
-    - module1/04-variables-lecture.md
-    - module1/05-variables-practice.md
-    - module1/06-conditions-lecture.md
-    - module1/07-conditions-practice.md
-    - module1/08-loops-lecture.md
-    - module1/09-loops-practice.md
-    - module1/10-functions-lecture.md
-    - module1/11-functions-practice.md
-    - module1/12-git-lecture.md
-    - module1/13-git-practice.md
-  - Модуль 2:
-    - module2/14-lists-tuples-lecture.md
-    - module2/15-lists-tuples-practice.md
-    - module2/16-dicts-sets-lecture.md
-    - module2/17-dicts-sets-practice.md
-    - module2/18-strings-lecture.md
-    - module2/19-strings-practice.md
-    - module2/20-typing-mutability-lecture.md
-    - module2/21-files-lecture.md
-    - module2/22-files-practice.md
-    - module2/23-exceptions-lecture.md
-    - module2/24-exceptions-practice.md
-    - module2/25-data-structures-internals-lecture.md
-  - Модуль 3:
-    - module3/26-logging-lecture.md
-    - module3/27-modules-packages-lecture.md
-    - module3/28-modules-practice.md
-    - module3/29-stdlib-lecture.md
-    - module3/30-stdlib-practice.md
-    - module3/31-packages-pip-venv-lecture.md
+  - 5 семестр:
+    - Модуль 1:
+      - semester5/module1/01-intro-lecture.md
+      - semester5/module1/02-tools-lecture.md
+      - semester5/module1/03-tools-practice.md
+      - semester5/module1/04-variables-lecture.md
+      - semester5/module1/05-variables-practice.md
+      - semester5/module1/06-conditions-lecture.md
+      - semester5/module1/07-conditions-practice.md
+      - semester5/module1/08-loops-lecture.md
+      - semester5/module1/09-loops-practice.md
+      - semester5/module1/10-functions-lecture.md
+      - semester5/module1/11-functions-practice.md
+      - semester5/module1/12-git-lecture.md
+      - semester5/module1/13-git-practice.md
+    - Модуль 2:
+      - semester5/module2/14-lists-tuples-lecture.md
+      - semester5/module2/15-lists-tuples-practice.md
+      - semester5/module2/16-dicts-sets-lecture.md
+      - semester5/module2/17-dicts-sets-practice.md
+      - semester5/module2/18-strings-lecture.md
+      - semester5/module2/19-strings-practice.md
+      - semester5/module2/20-typing-mutability-lecture.md
+      - semester5/module2/21-files-lecture.md
+      - semester5/module2/22-files-practice.md
+      - semester5/module2/23-exceptions-lecture.md
+      - semester5/module2/24-exceptions-practice.md
+      - semester5/module2/25-data-structures-internals-lecture.md
+    - Модуль 3:
+      - semester5/module3/26-logging-lecture.md
+      - semester5/module3/27-modules-packages-lecture.md
+      - semester5/module3/28-modules-practice.md
+      - semester5/module3/29-stdlib-lecture.md
+      - semester5/module3/30-stdlib-practice.md
+      - semester5/module3/31-packages-pip-venv-lecture.md
+      - semester5/module3/32-external-libraries-practice.md
+      - semester5/module3/33-testing-lecture.md
+      - semester5/module3/34-testing-practice.md
+      - semester5/module3/35-json-lecture.md
+      - semester5/module3/36-json-practice.md
+      - semester5/module3/37-http-requests-lecture.md
+      - semester5/module3/38-web-api-practice.md
+    - Модуль 4:
+      - semester5/module4/39-oop-intro-lecture.md
+      - semester5/module4/40-classes-objects-practice.md
+      - semester5/module4/41-constructors-encapsulation-lecture.md
+      - semester5/module4/42-constructors-encapsulation-practice.md
+      - semester5/module4/43-inheritance-lecture.md
+      - semester5/module4/44-inheritance-practice.md
+      - semester5/module4/45-polymorphism-lecture.md
+      - semester5/module4/46-polymorphism-practice.md
+      - semester5/module4/47-operator-overloading-lecture.md
+      - semester5/module4/48-operator-overloading-practice.md
+      - semester5/module4/49-abstract-classes-lecture.md
+      - semester5/module4/50-abstract-classes-practice.md
+      - semester5/module4/51-solid-lecture.md
+  - 6 семестр:
+    - Модуль 1:
+      - semester6/module1/01-sqlite3-lecture.md
+      - semester6/module1/02-sqlite-practice.md
+      - semester6/module1/03-psycopg2-lecture.md
+      - semester6/module1/04-postgresql-practice.md
+      - semester6/module1/05-advanced-sql-lecture.md
+      - semester6/module1/06-sql-queries-practice.md
+      - semester6/module1/07-transactions-lecture.md
+      - semester6/module1/08-transactions-practice.md
+      - semester6/module1/09-db-testing-lecture.md
+      - semester6/module1/10-db-testing-practice.md
+      - semester6/module1/11-docker-intro-lecture.md
+      - semester6/module1/12-dockerfile-lecture.md
+      - semester6/module1/13-docker-basics-practice.md
+      - semester6/module1/14-docker-containers-lecture.md
+      - semester6/module1/15-docker-postgres-practice.md
+    - Модуль 2:
+      - semester6/module2/16-http-rest-lecture.md
+      - semester6/module2/17-rest-design-practice.md
+      - semester6/module2/18-flask-routing-lecture.md
+      - semester6/module2/19-flask-routes-practice.md
+      - semester6/module2/20-flask-request-data-lecture.md
+      - semester6/module2/21-flask-request-data-practice.md
+      - semester6/module2/22-flask-crud-lecture.md
+      - semester6/module2/23-flask-crud-practice.md
+      - semester6/module2/24-flask-sessions-lecture.md
+      - semester6/module2/25-flask-sessions-practice.md
+      - semester6/module2/26-api-testing-lecture.md
+      - semester6/module2/27-api-testing-practice.md
+      - semester6/module2/28-ci-github-actions-lecture.md
+      - semester6/module2/29-github-actions-practice.md
+      - semester6/module2/30-flask-docker-lecture.md
+      - semester6/module2/31-flask-docker-practice.md
+    - Модуль 3:
+      - semester6/module3/32-concurrency-intro-lecture.md
+      - semester6/module3/33-threads-processes-practice.md
+      - semester6/module3/34-gil-event-loop-lecture.md
+      - semester6/module3/35-threaded-download-practice.md
+      - semester6/module3/36-asyncio-basics-lecture.md
+      - semester6/module3/37-asyncio-basics-practice.md
+      - semester6/module3/38-asyncio-tasks-lecture.md
+      - semester6/module3/39-asyncio-task-management-practice.md
+      - semester6/module3/40-asyncio-debugging-lecture.md
+      - semester6/module3/41-asyncio-debugging-practice.md
+    - Модуль 4:
+      - semester6/module4/42-osi-model-lecture.md
+      - semester6/module4/43-network-transport-layers-lecture.md
+      - semester6/module4/44-udp-lecture.md
+      - semester6/module4/45-tcp-lecture.md
+      - semester6/module4/46-sockets-blocking-lecture.md
+      - semester6/module4/47-blocking-sockets-limits-lecture.md
+      - semester6/module4/48-blocking-tcp-server-practice.md
+      - semester6/module4/49-nonblocking-sockets-lecture.md
+      - semester6/module4/50-nonblocking-tcp-server-practice.md
+      - semester6/module4/51-selectors-event-loop-lecture.md
+      - semester6/module4/52-udp-selectors-practice.md
+      - semester6/module4/53-asyncio-echo-server-lecture.md
+      - semester6/module4/54-asyncio-echo-server-practice.md
+  - 7 семестр:
+    - Модуль 1:
+      - semester7/module1/01-pyside6-intro-lecture.md
+      - semester7/module1/02-first-pyside6-app-practice.md
+      - semester7/module1/03-basic-widgets-lecture.md
+      - semester7/module1/04-input-form-practice.md
+      - semester7/module1/05-layouts-lecture.md
+      - semester7/module1/06-adaptive-layout-practice.md
+      - semester7/module1/07-main-window-lecture.md
+      - semester7/module1/08-main-window-practice.md
+      - semester7/module1/09-menus-toolbars-lecture.md
+      - semester7/module1/10-menus-toolbars-practice.md
+      - semester7/module1/11-dialogs-lecture.md
+      - semester7/module1/12-dialogs-practice.md
+      - semester7/module1/13-signals-slots-practice.md
+    - Модуль 2:
+      - semester7/module2/14-app-state-structure-lecture.md
+      - semester7/module2/15-project-structure-practice.md
+      - semester7/module2/16-multi-window-lecture.md
+      - semester7/module2/17-multi-window-practice.md
+      - semester7/module2/18-model-view-lecture.md
+      - semester7/module2/19-table-view-practice.md
+      - semester7/module2/20-qt-threads-lecture.md
+      - semester7/module2/21-background-tasks-practice.md
+      - semester7/module2/22-error-handling-settings-lecture.md
+      - semester7/module2/23-settings-errors-practice.md
+      - semester7/module2/24-pyinstaller-lecture.md
+    - Модуль 3:
+      - semester7/module3/25-numpy-intro-lecture.md
+      - semester7/module3/26-numpy-arrays-practice.md
+      - semester7/module3/27-numpy-indexing-lecture.md
+      - semester7/module3/28-indexing-broadcasting-practice.md
+      - semester7/module3/29-numpy-linalg-lecture.md
+      - semester7/module3/30-numpy-statistics-random-lecture.md
+      - semester7/module3/30-statistics-random-practice.md
+      - semester7/module3/31-linear-algebra-simulations-practice.md
+      - semester7/module3/32-pandas-intro-lecture.md
+      - semester7/module3/33-pandas-basics-practice.md
+      - semester7/module3/34-pandas-aggregation-practice.md
+    - Модуль 4:
+      - semester7/module4/35-matplotlib-intro-lecture.md
+      - semester7/module4/36-basic-plots-practice.md
+      - semester7/module4/37-line-plots-lecture.md
+      - semester7/module4/38-line-plots-practice.md
+      - semester7/module4/39-histograms-scatter-lecture.md
+      - semester7/module4/40-histograms-scatter-practice.md
+      - semester7/module4/41-bar-box-plots-lecture.md
+      - semester7/module4/42-combined-plots-practice.md
+      - semester7/module4/43-plot-styling-lecture.md
+      - semester7/module4/44-informative-plots-practice.md
+      - semester7/module4/45-dashboard-practice.md

@@ -416,7 +416,8 @@ if age >= 18:
     else:
         print("Access denied: license required")
 else:
-    print("Access denied: you are too young")```
+    print("Access denied: you are too young")
+```
 
 ```text
 Age: 20
