@@ -30,7 +30,9 @@
   "mounts": [
     "source=claude-code-config-${devcontainerId},target=/home/vscode/.claude,type=volume",
     // gh keeps its login here, so it survives container rebuilds
-    "source=gh-config-${devcontainerId},target=/home/vscode/.config/gh,type=volume"
+    "source=gh-config-${devcontainerId},target=/home/vscode/.config/gh,type=volume",
+    // College materials from the host Mac, readable from the container
+    "source=${localEnv:HOME}/Documents/CollegeWork,target=/workspace/CollegeWork,type=bind,consistency=cached"
   ],
 
   "customizations": {

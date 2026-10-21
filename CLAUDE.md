@@ -22,7 +22,7 @@ Inside the dev container (`.devcontainer/`) the toolchain is already installed i
 
 ## Architecture
 
-- **docs/** — Course content in Markdown (Ukrainian). Organized by modules with paired lecture/practice files.
+- **docs/** — Course content in Markdown (Ukrainian). Organized by semester and module (`docs/semester5/module1/` … `docs/semester7/module4/`) with paired lecture/practice files. Lesson numbers restart in each semester, as in the course program.
 - **mkdocs.yml** — Site configuration, navigation, theme settings, and markdown extensions.
 - **overrides/main.html** — Extends base template to add a footer with GitHub issue link.
 - **requirements.txt** — MkDocs and related dependencies (pinned versions).
@@ -30,6 +30,10 @@ Inside the dev container (`.devcontainer/`) the toolchain is already installed i
 ### Content naming convention
 
 Files follow `NN-<topic>-<type>.md` pattern (e.g., `01-variables-lecture.md`, `02-variables-practice.md`). New content must also be added to the `nav` section in `mkdocs.yml`.
+
+Practice pages are also exported to the college form НДЗ-53 (docx/pdf), so new practice pages keep this structure: title `# NN. (ПK) Topic`; `## Мета роботи` with three bullets **Освітня (навчальна)**, **Дослідна (розвиваюча)**, **Виховна (патріотична)**; `## Підготовка`; `## Хід роботи` with `### Завдання N. …` each ending with `**Очікуваний результат:** …`; `## Що здати`; `## Контрольні запитання` (numbered list).
+
+Lecture pages are also exported to docx/pdf lecture notes, so they keep this structure: title `# NN. (Л) Topic`; `## Зміст лекції`; numbered content sections; `## Типові помилки` (table); `## Підсумок` (bullets); `## Корисні посилання` (bullets with links). Figures live next to the page in `images/` (`![caption](images/NN-name.png)`). There is no math extension: write formulas as plain Unicode text, not LaTeX. In mermaid diagrams avoid `;` inside labels and messages (it ends a statement).
 
 ## Key Details
 
