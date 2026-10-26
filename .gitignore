@@ -3,7 +3,6 @@ env/
 __pycache__/
 .venv/
 lecture/
-practice/
 node_modules/
 .claude/skills/
 .DS_Store
