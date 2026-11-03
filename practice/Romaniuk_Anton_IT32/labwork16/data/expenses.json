@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2026-09-23",
+    "category": "electronics",
+    "amount": 1290.0,
+    "comment": "wireless keyboard"
+  },
+  {
+    "date": "2026-09-23",
+    "category": "bakery",
+    "amount": 145.0,
+    "comment": "croissants and bread"
+  },
+  {
+    "date": "2026-09-24",
+    "category": "books",
+    "amount": 380.0,
+    "comment": "programming notebook"
+  },
+  {
+    "date": "2026-09-24",
+    "category": "cinema",
+    "amount": 420.0,
+    "comment": "evening movie"
+  },
+  {
+    "date": "2026-09-25",
+    "category": "groceries",
+    "amount": 735.0,
+    "comment": "fruit and vegetables"
+  },
+  {
+    "date": "2026-09-25",
+    "category": "transport",
+    "amount": 68.0,
+    "comment": "city bus"
+  },
+  {
+    "date": "2026-09-26",
+    "category": "games",
+    "amount": 560.0,
+    "comment": "board game"
+  },
+  {
+    "date": "2026-09-26",
+    "category": "pharmacy",
+    "amount": 215.0,
+    "comment": "vitamins and tissues"
+  },
+  {
+    "date": "2026-09-27",
+    "category": "cafe",
+    "amount": 310.0,
+    "comment": "pancakes and tea"
+  },
+  {
+    "date": "2026-09-28",
+    "category": "clothing",
+    "amount": 890.0,
+    "comment": "hoodie"
+  },
+  {
+    "date": "2026-09-28",
+    "category": "stationery",
+    "amount": 175.0,
+    "comment": "pens and folders"
+  },
+  {
+    "date": "2026-09-29",
+    "category": "electronics",
+    "amount": 2450.0,
+    "comment": "headphones"
+  },
+  {
+    "date": "2026-09-29",
+    "category": "groceries",
+    "amount": 460.0,
+    "comment": "snacks and juice"
+  },
+  {
+    "date": "2026-09-30",
+    "category": "snack",
+    "amount": 5.0,
+    "comment": "gum"
+  }
+]

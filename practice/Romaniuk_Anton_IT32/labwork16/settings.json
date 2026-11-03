@@ -1,0 +1,14 @@
+{
+  "owner": "Anton Romaniuk",
+  "group": "IT-32",
+  "currency": "UAH",
+  "monthly_limit": 10000,
+  "categories": [
+    "groceries",
+    "transport",
+    "cafe",
+    "books",
+    "clothing",
+    "electronics"
+  ]
+}
